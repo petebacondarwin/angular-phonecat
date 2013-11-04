@@ -17,6 +17,7 @@ module.exports = function(config){
     singleRun : true,
 
     proxies : {
+      '/app/js/animations.js': 'http://localhost:8000/test/lib/animations.js',
       '/': 'http://localhost:8000/'
     },
 
